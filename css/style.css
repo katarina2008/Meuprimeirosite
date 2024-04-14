@@ -1,8 +1,84 @@
 body{
-    background-color: #caf0f8;
-    color: blueviolet;
-font-family: 'Courier New', Courier, monospace;
+    background-color: #dad7cd;
 }
+header{
+    background-color:#c1121f;
+    padding: 3%;
+}
+
+/* classe atribuída para a div que vai receber o logotipo */
+
+.logo{
+    background-color: #780000;
+}
+
+nav{ 
+    background-color:#fdf0d5 ;
+}
+
+main{
+    background-color: #dad7cd;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color:#003049 ;
+}
+
+footer{
+    background-color:#669bbc ;
+    padding: 3%;
+}
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+.titulos{
+    line-height: 3;
+    text-align:center ;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
 h1{
-    color:#003049 ;
+    font-size: 2em;
+}
+
+h2{
+    font: size 1.Sen; ;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+td,th{
+    border: 5px dashed #780000;
+    padding: 1.5%;
+}
+
+/* essa faz uma linha cor sim cor não */
+tr:nth-child(even) {
+    background-color: #fdf0d5;
 }
