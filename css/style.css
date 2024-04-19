@@ -1,15 +1,20 @@
 body{
     background-color: #dad7cd;
+    background-image:url(../img/The-Chosen-Jesus-e-Discipulos-VidAngel-Studios.jpg) ;
 }
 header{
-    background-color:#c1121f;
+    background-color:#6c584c;
     padding: 3%;
 }
 
 /* classe atribuída para a div que vai receber o logotipo */
 
+
+div{
+    background-color: #a98467;   
+}
 .logo{
-    background-color: #780000;
+    width: 20%;
 }
 
 nav{ 
@@ -24,11 +29,15 @@ main{
 }
 
 section{
-    background-color:#003049 ;
+    background-color:#fdf0d5  ;
+
+}
+.section_meio{
+    background-color:#adc178;
 }
 
 footer{
-    background-color:#669bbc ;
+    background-color:#adc178;
     padding: 3%;
 }
 
@@ -37,6 +46,7 @@ footer{
 }
 
 .rodape{
+
     padding: 3%;
 }
 
