@@ -30,6 +30,7 @@ main{
 
 section{
     background-color:#fdf0d5  ;
+    padding: 3%;
 
 }
 .section_meio{
@@ -59,6 +60,7 @@ footer{
 p{
     line-height: 1.5;
     font-size: 1.2em;
+    padding: 0.5%;
 }
 
 ul li{
@@ -76,19 +78,38 @@ h2{
 
 table{
     border-collapse: collapse;
-    width: 80%;
+    width: 90%;
     font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+    
 }
 
 td,th{
     border: 5px dashed #780000;
     padding: 1.5%;
+    width: 26.66%;
+    
+    
 }
+
 
 /* essa faz uma linha cor sim cor não */
 tr:nth-child(even) {
     background-color: #fdf0d5;
+}
+
+.foto{
+    width: 100%;
+    
+    
+}
+
+.fotos{
+    width: 33%;
+
+}
+
+.info{
 }
