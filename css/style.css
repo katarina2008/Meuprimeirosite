@@ -108,8 +108,24 @@ tr:nth-child(even) {
 
 .fotos{
     width: 33%;
-
+   
 }
 
 .info{
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.col-3{
+    width: 25%;
+
+}
+
+.imggaleria{
+    
+
 }
