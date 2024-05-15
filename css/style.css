@@ -70,6 +70,7 @@ p {
 ul li {
     line-height: 1.5;
     font-size: 1.2em;
+ 
 }
 
 h1 {
@@ -174,7 +175,7 @@ table, td {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black
+    background-color:#adc178;
   }
   
 .menu1 {
@@ -189,21 +190,34 @@ table, td {
     text-decoration: none;
   }
 
-  
 
-.menu1 {
-    border-right: 1px solid #bbb;
+
+
+
+
+
+#teste
+
+/* unvisited link */
+a:link {
+    color: red;
   }
   
-.menu1:last-child {
-    border-right: none;
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
   }
-
-
-.menu1 a:hover {
-    background-color: #750370;
-    color: rgb(18, 50, 230);
-    
-}
-
+  
+  /* mouse over link */
+  a:hover {
+   
+        background-color:#526e06;
+        color: rgb(0, 0, 0);
+        
+    }
+ 
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+  }
 
