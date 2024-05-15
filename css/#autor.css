@@ -179,7 +179,6 @@ table, td {
   
 .menu1 {
     float: left;
-
   }
   
 .menu1 a {
@@ -207,5 +206,7 @@ table, td {
     
 }
 
-
+.autor{
+   width: 100%;
+}
 
