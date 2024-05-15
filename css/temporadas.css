@@ -13,7 +13,6 @@ header {
 
 div {
     background-color: #a98467;
-
 }
 
 .logo {
@@ -34,7 +33,6 @@ main {
 section {
     background-color: #fdf0d5;
     padding: 3%;
-
 }
 
 .section_meio {
@@ -51,7 +49,6 @@ footer {
 }
 
 .rodape {
-
     padding: 3%;
 }
 
@@ -77,11 +74,11 @@ h1 {
 }
 
 h2 {
-    font: size 1.Sen;
-    ;
+    font-size: 1em;
 }
 
 table {
+    border: 5px red;
     border-collapse: collapse;
     width: 90%;
     font-size: 1.2em;
@@ -91,14 +88,16 @@ table {
 
 }
 
-td,
-th {
-    border: 5px dashed #780000;
+td,th {
+    border-collapse: collapse;
     padding: 1%;
     width: 25%;
-
-
 }
+
+.temp{
+    width: 25%;
+}
+
 
 
 /* essa faz uma linha cor sim cor não */
@@ -108,24 +107,17 @@ tr:nth-child(even) {
 
 .foto {
     width: 80%;
-
-
-
 }
 
 .fotos {
     width: 33%;
-
 }
-
-
 
 .linha {
     display: flex;
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .col-3 {
@@ -139,7 +131,6 @@ tr:nth-child(even) {
 
 .imggaleria {
     width: 90%;
-
 }
 
 .col-3 legend {
@@ -149,10 +140,7 @@ tr:nth-child(even) {
 
 
 table, td {
-    
-    padding: 5%;
     text-align: center;
-   
   }
 
 .info{
@@ -160,22 +148,22 @@ table, td {
    text-align: center;
 }
 
-  table {
+table {
     page-break-inside: auto;
     width: 100%;
   }
   
-  tr {
+tr {
     page-break-inside: avoid;
     page-break-after: auto
   }
 
-  .menu {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black
+    background-color:#adc178;
   }
   
 .menu1 {
@@ -202,11 +190,29 @@ table, td {
   }
 
 
-.menu1 a:hover {
-    background-color: #750370;
-    color: rgb(18, 50, 230);
-    
-}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+   
+        background-color:#526e06;
+        color: rgb(0, 0, 0);
+        
+    }
+ 
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+  }
 
 
 
