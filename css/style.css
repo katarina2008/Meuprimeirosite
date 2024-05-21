@@ -151,13 +151,15 @@ tr:nth-child(even) {
 
 table, td {
     
-    padding: 5%;
     text-align: center;
    
   }
 
 .info{
     font-size: 25px;
+    text-align: center;
+  
+  
 }
 
   table {
@@ -196,28 +198,34 @@ table, td {
 
 
 
-#teste
+  #teste
 
-/* unvisited link */
-a:link {
-    color: red;
-  }
-  
-  /* visited link */
-  a:visited {
+  /* unvisited link */
+  a:link {
     color: rgb(0, 0, 0);
   }
   
-  /* mouse over link */
-  a:hover {
-   
-        background-color:#526e06;
-        color: rgb(0, 0, 0);
-        
-    }
+    /* visited link */
+ a:visited {
+    color: rgb(0, 0, 0);
+ }
  
-  /* selected link */
-  a:active {
-    color: rgb(0, 0, 0);
-  }
+   /* mouse over link */
+a:hover { 
 
+    background-color:#526e06;
+    color: rgb(0, 0, 0);
+            
+ }
+     
+      /* selected link */
+ a:active {
+    color: rgb(0, 0, 0);
+ }
+    
+ .autor{
+   width: 20%;
+ }
+ .pg{
+        text-align: center;
+}
