@@ -9,15 +9,12 @@ header {
 }
 
 /* classe atribuída para a div que vai receber o logotipo */
-
-
 div {
     background-color: #a98467;
-
 }
 
 .logo {
-    width: 20%;
+    width:20%;
 }
 
 nav {
@@ -70,7 +67,6 @@ p {
 ul li {
     line-height: 1.5;
     font-size: 1.2em;
- 
 }
 
 h1 {
@@ -79,7 +75,6 @@ h1 {
 
 h2 {
     font: size 1.Sen;
-    ;
 }
 
 table {
@@ -89,7 +84,6 @@ table {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-
 }
 
 td,
@@ -97,10 +91,7 @@ th {
     border: 5px dashed #780000;
     padding: 1.5%;
     width: 26.66%;
-
-
 }
-
 
 /* essa faz uma linha cor sim cor não */
 tr:nth-child(even) {
@@ -109,24 +100,17 @@ tr:nth-child(even) {
 
 .foto {
     width: 80%;
-
-
-
 }
 
 .fotos {
     width: 33%;
-
 }
-
-
 
 .linha {
     display: flex;
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .col-3 {
@@ -140,7 +124,6 @@ tr:nth-child(even) {
 
 .imggaleria {
     width: 90%;
-
 }
 
 .col-3 legend {
@@ -148,41 +131,36 @@ tr:nth-child(even) {
     text-align: center;
 }
 
-
 table, td {
-    
     text-align: center;
-   
-  }
+}
 
 .info{
     font-size: 25px;
     text-align: center;
-  
-  
 }
 
-  table {
+table {
     page-break-inside: auto;
     width: 100%;
-  }
+}
   
-  tr {
+tr {
     page-break-inside: avoid;
     page-break-after: auto
-  }
+}
 
-  .menu {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:#adc178;
-  }
+}
   
 .menu1 {
     float: left;
-  }
+}
   
 .menu1 a {
     display: block;
@@ -190,42 +168,37 @@ table, td {
     text-align: center;
     padding: 5px 30px;
     text-decoration: none;
-  }
+}
 
-
-
-
-
-
-
-  #teste
-
-  /* unvisited link */
-  a:link {
+/* unvisited link */
+a:link {
     color: rgb(0, 0, 0);
-  }
+}
   
-    /* visited link */
- a:visited {
+/* visited link */
+a:visited {
     color: rgb(0, 0, 0);
- }
+}
  
-   /* mouse over link */
+/* mouse over link */
 a:hover { 
-
     background-color:#526e06;
-    color: rgb(0, 0, 0);
-            
- }
+    color: rgb(0, 0, 0);        
+}
      
-      /* selected link */
- a:active {
+/* selected link */
+a:active {
     color: rgb(0, 0, 0);
- }
+}
     
- .autor{
-   width: 20%;
- }
- .pg{
+.autor{
+    float: left;
+    margin-right: 1.5%;
+    width: 25%;
+}
+
+.pg{
         text-align: center;
 }
+
+
