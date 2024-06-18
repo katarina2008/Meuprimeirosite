@@ -341,14 +341,66 @@ a:active {
   background-color: #fdf0d5
   
 }
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+.top-left-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    background-color: #dad7cd
+}
+.centered-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dad7cd
+}
  
 .topleft {
     position: absolute;
     top: 8px;
     left: 16px;
     font-size: 18px;
+    background-color: #dad7cd
   }
 
+.quiz{
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px ;
+    padding: 3%;
+    text-align: center;
+}
+
+.quiz1{
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px ;
+    padding: 3%;
+    align-items: center;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: left;
+}
+.quiz2{
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px ;
+    padding: 3%;
+    align-items: center;
+    width: 28%;
+   
+    margin-top: 1%;
+}
 
 
 
