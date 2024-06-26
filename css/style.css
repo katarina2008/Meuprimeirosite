@@ -85,22 +85,6 @@ h2 {
     font: size 1.Sen;
 }
 
-table {
-    border-collapse: collapse;
-    width: 90%;
-    font-size: 1.2em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-}
-
-td,
-th {
-    border: 5px dashed #780000;
-    padding: 1.5%;
-    width: 26.66%;
-}
-
 /* essa faz uma linha cor sim cor não */
 tr:nth-child(even) {
     background-color: #fdf0d5;
@@ -111,7 +95,7 @@ tr:nth-child(even) {
     margin-right: 1%;
     border-radius: 15px;
 
-    
+
 }
 
 .fotos {
@@ -134,6 +118,7 @@ tr:nth-child(even) {
     text-align: center;
     
 }
+
 .col {
     width: calc(50% - 20px);
     padding-top: 1%;
@@ -154,7 +139,7 @@ legend{
 .imggaleria {
     width: 90%;
     box-shadow: 3px 3px 10px;
-    
+
 }
 
 .person {
@@ -211,22 +196,26 @@ tr {
 /* unvisited link */
 a:link {
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
   
 /* visited link */
 a:visited {
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
  
 /* mouse over link */
 a:hover { 
     background-color:#526e06;
-    color: rgb(0, 0, 0);        
+    color: rgb(0, 0, 0);
+    text-decoration: none;        
 }
      
 /* selected link */
 a:active {
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
     
 .autor{
@@ -252,7 +241,7 @@ a:active {
 .border {
     border-style: solid;
     border-width: 5px;
-  }
+}
 
 .cards{
     flex-wrap: wrap;
@@ -273,18 +262,53 @@ a:active {
     border-radius: 15px;
     box-shadow: 3px 3px 10px;
 
- 
+
 }
 
 @media screen  and (max-width: 768px) {
     .card{
         width: calc(50%-20px);
     }
+    .foto{
+        width: 0;
+    }
+    .col {
+        width: calc(100% - 20px);
+    }
+    .linha{
+        display: flex;
+    }
+    .imggaleria{
+        width: 95%;
+        
+    }
+    .col-3{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 798px) {
+    .menu1{
+        float: none;
+    }
 }
 
 @media screen  and (max-width: 480px){
     .card{
         width: calc(100%-20px);
+    }
+    .foto{
+        width: 0;
+    }
+    .linha{
+        display: block;
+    }
+    .imggaleria{
+        width: 100%;
+        
+    }
+    .col-3{
+        width: 100%;
     }
     
 }
@@ -302,6 +326,7 @@ a:active {
     margin-left: 10%;
     margin-right: 3%;
 }
+
 .card_autor{
   
     height: 50%;
@@ -318,12 +343,13 @@ a:active {
     border-radius: 15px;
     box-shadow: 3px 3px 10px;
 }
+
 .container {
     position: relative;
     background-color: #fdf0d5;
     border-radius: 15px;
     box-shadow: 3px 3px 10px;
-  }
+}
   
 .bottomright {
     position: absolute;
@@ -332,6 +358,7 @@ a:active {
     right: 16px;
     font-size: 18px;
 }
+
 .teste{
   width: 100%;
   height: 50%;
@@ -339,13 +366,15 @@ a:active {
   border-radius: 15px;
   background-color: #fdf0d5  
 }
+
 .center {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
     font-size: 18px;
-  }
+}
+
 .top-left-text{
     position: absolute;
     top: 0;
@@ -353,6 +382,7 @@ a:active {
     margin: 10px;
     background-color: #dad7cd
 }
+
 .centered-text{
     position: absolute;
     top: 50%;
@@ -367,7 +397,7 @@ a:active {
     left: 16px;
     font-size: 18px;
     background-color: #dad7cd
-  }
+}
 
 .quiz{
     box-sizing: border-box;
@@ -390,6 +420,7 @@ a:active {
     float: left;
     margin-bottom: 3%;
 }
+
 .quiz2{
     box-sizing: border-box;
     border-radius: 15px;
@@ -400,6 +431,7 @@ a:active {
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
 .quiz3{
     box-sizing: border-box;
     border-radius: 15px;
@@ -412,6 +444,7 @@ a:active {
     margin-top: 3%;
     float: left;
 }
+
 .quiz4{
     box-sizing: border-box;
     border-radius: 15px;
@@ -431,4 +464,3 @@ a:active {
 
 
 
- 
