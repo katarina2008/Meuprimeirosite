@@ -455,6 +455,11 @@ a:active {
     margin-top: 3%;
 }
 
+.alogo:hover{ 
+    background-color:#a98467;
+    color: rgb(0, 0, 0);
+    text-decoration: none;        
+}
 
 
 
